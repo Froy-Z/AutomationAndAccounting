@@ -35,7 +35,7 @@
 3. Скопируйте файл .env.example в .env
    ```bash
    copy .env.example .env
-4. Скопируйте файл .env.example в .env
+4. Сгенерируйте ключ
    ```bash
    php artisan key:generate
 5. Запускаем миграции
