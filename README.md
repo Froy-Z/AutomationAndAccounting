@@ -1,0 +1,47 @@
+# Тестовое задание
+
+Это тестовое задание, в котором используется стек технологий:
+
+- **PHP8.3** (для бекенда)
+- **Laravel 12** (framework)
+- **MySQL** (для работы с базой данных)
+
+База данных разворачивается в **Docker** контейнере:
+
+## Техническое задание
+
+1. 
+
+## Добавление репозитория локально
+
+1. Соберите контейнеры с помощью команды:
+   ```bash
+   git clone https://github.com/Froy-Z/todo-laravel-vue3.git
+
+## Установка и запуск
+
+Для развертывания проекта выполните следующие шаги:
+
+
+1. Поднимаем БД в Docker
+   ```bash
+   docker-compose up -d
+
+2. Устанавливаем зависимости для работы
+   ```bash
+   composer install
+3. Скопируйте файл .env.example в .env
+   ```bash
+   copy .env.example .env
+4. Скопируйте файл .env.example в .env
+   ```bash
+   php artisan key:generate
+5. Запускаем миграции
+   ```bash
+   php artisan migrate --seed
+6. Поднимаем сервер
+   ```bash
+   php artisan serve --host=localhost --port=8080
+7. Протестировать функционал можно через запросы Postman импортировав файл из кроня проекта SocksGoods.postman_collection.json
+
+Обработка 500 ошибки производиться на уровне фреймворка.
