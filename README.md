@@ -18,7 +18,7 @@
 
 1. Соберите контейнеры с помощью команды:
    ```bash
-   git clone https://github.com/Froy-Z/todo-laravel-vue3.git
+   git clone https://github.com/Froy-Z/AutomationAndAccounting.git
 
 ## Установка и запуск
 
